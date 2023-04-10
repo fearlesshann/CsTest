@@ -13,17 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F66E446D-669
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "..\Consumer\Consumer.csproj", "{D303E7E5-1A59-4768-B98A-0698B236947B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogServices", "..\LogServices\LogServices.csproj", "{120DD5E7-5352-4E7D-9FCF-991FB8F533F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogServices", "..\LogServices\LogServices.csproj", "{120DD5E7-5352-4E7D-9FCF-991FB8F533F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServices", "..\MailServices\MailServices.csproj", "{E650026E-028F-437A-8A1E-E53A7E1DE38F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailServices", "..\MailServices\MailServices.csproj", "{E650026E-028F-437A-8A1E-E53A7E1DE38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigServices", "..\ConfigServices\ConfigServices.csproj", "{726F0FDE-2ADD-4ECB-A8C2-CB20A299B54C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigServices", "..\ConfigServices\ConfigServices.csproj", "{726F0FDE-2ADD-4ECB-A8C2-CB20A299B54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppMailSender", "..\ConsoleAppMailSender\ConsoleAppMailSender.csproj", "{5A41CA52-3882-4913-A7C5-E6048D7542E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppMailSender", "..\ConsoleAppMailSender\ConsoleAppMailSender.csproj", "{5A41CA52-3882-4913-A7C5-E6048D7542E9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{A80EED69-EDF3-4A3E-8A2D-530C66B8F835}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQ", "MQ", "{DD0F282B-C5E8-4391-87EB-1FB3D2D0BF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackGame", "..\SnackGame\SnackGame.csproj", "{D3BBD8BE-C064-4440-A638-4695EEB6A45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{5A41CA52-3882-4913-A7C5-E6048D7542E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A41CA52-3882-4913-A7C5-E6048D7542E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A41CA52-3882-4913-A7C5-E6048D7542E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BBD8BE-C064-4440-A638-4695EEB6A45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BBD8BE-C064-4440-A638-4695EEB6A45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BBD8BE-C064-4440-A638-4695EEB6A45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BBD8BE-C064-4440-A638-4695EEB6A45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{5A41CA52-3882-4913-A7C5-E6048D7542E9} = {A80EED69-EDF3-4A3E-8A2D-530C66B8F835}
 		{A80EED69-EDF3-4A3E-8A2D-530C66B8F835} = {F66E446D-6695-45AD-91E6-1608BEEFDB88}
 		{DD0F282B-C5E8-4391-87EB-1FB3D2D0BF46} = {F66E446D-6695-45AD-91E6-1608BEEFDB88}
+		{D3BBD8BE-C064-4440-A638-4695EEB6A45A} = {F66E446D-6695-45AD-91E6-1608BEEFDB88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1160018-AD6C-4950-B091-6768D432AFDD}

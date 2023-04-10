@@ -6,18 +6,17 @@ using MyConsole;
 using System.Drawing;
 using System.Reflection;
 
-
 string? cmd = "";
 Console.WriteLine("Welcome to MyTestConsole!");
-while(cmd != "q")
+while (cmd != "q")
 {
     Console.WriteLine("Please enter cmd:(q to quit，h for help)");
     cmd = Console.ReadLine();
-    if(cmd == "q")
+    if (cmd == "q")
     {
         return;
     }
-    if(cmd == "h")
+    if (cmd == "h")
     {
         MyTestConsole.Help();
         continue;
